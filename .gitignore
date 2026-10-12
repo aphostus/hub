@@ -1,1 +1,5 @@
-Website Version/Private Sources/datahub.env
+*
+!README.md
+!.gitignore
+!Information/
+!Information/**
