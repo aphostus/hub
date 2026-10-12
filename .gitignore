@@ -1,4 +1,4 @@
 *
 !.gitignore
-!Information/
-!Information/**
+!README.md
+!DEVELOP.md
