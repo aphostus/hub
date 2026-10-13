@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !DEVELOP.md
+!HANDLER.md
 !.env.example
 
 # allow the website source
