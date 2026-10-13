@@ -1,0 +1,45 @@
+/* ============================================================
+   ============================================================
+   error.css
+   owns: error screen
+   ============================================================
+   ============================================================ */
+
+:root {
+  --black: #000000;
+  --gray-mid: #888888;
+  --white: #ffffff;
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--black);
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#err {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+#errTag {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--gray-mid);
+  transition: color 0.3s var(--ease-smooth);
+}

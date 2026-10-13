@@ -1,0 +1,41 @@
+/* ============================================================
+   ============================================================
+   tokens.css
+   owns: shared design tokens for every version
+   ============================================================
+   ============================================================ */
+
+:root {
+  /* monochrome palette, black major, gray middle, white minor */
+  --black: #000000;
+  --gray-dark: #1a1a1a;
+  --gray-mid: #888888;
+  --gray-light: #cccccc;
+  --white: #ffffff;
+
+  /* system font stack only, no web fonts */
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+
+  /* radii, small for controls, large for panels, pill for tags */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* motion curves, spring for entry, smooth for hover, bounce for taps */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* type scale, tight letter spacing on titles per the spec */
+  --text-body: 15px;
+  --text-label: 13px;
+  --text-title: 22px;
+  --text-display: 28px;
+
+  /* weights */
+  --weight-body: 400;
+  --weight-emphasis: 500;
+  --weight-label: 600;
+  --weight-title: 700;
+}

@@ -1,4 +1,27 @@
+# ignore everything by default
 *
+
+# allow the essentials
 !.gitignore
 !README.md
 !DEVELOP.md
+!.env.example
+
+# allow the website source
+!Website Version/
+!Website Version/**
+
+# allow the native version
+!Native Version/
+!Native Version/**
+
+# block secrets, even inside allowed folders
+Website Version/.env
+Website Version/.env.local
+Website Version/Private Sources/datahub.env
+Native Version/Private Sources/
+
+# block node and vite
+node_modules/
+dist/
+.vite/
