@@ -20,6 +20,7 @@
 Website Version/.env
 Website Version/.env.local
 Website Version/Private Sources/datahub.env
+Website Version/Private Sources/dataset.env
 Native Version/Private Sources/
 
 # block node and vite
